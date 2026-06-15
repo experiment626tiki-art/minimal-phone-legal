@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー | ミニマリストフォン</title>
+<style>
+  :root {
+    --bg: #F5F5F7;
+    --ink: #1C1C1E;
+    --ink-muted: #6B6A67;
+    --hairline: #1C1C1E1A;
+    --accent: #D4A843;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, "Hiragino Sans", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.8;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  h1 {
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    margin: 0 0 4px;
+  }
+  .updated {
+    font-size: 12px;
+    color: var(--ink-muted);
+    letter-spacing: 0.05em;
+    margin: 0 0 24px;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid var(--hairline);
+    margin: 0 0 28px;
+  }
+  .lang-toggle {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 28px;
+  }
+  .lang-toggle button {
+    appearance: none;
+    border: 1px solid var(--hairline);
+    background: #fff;
+    color: var(--ink);
+    border-radius: 9999px;
+    padding: 8px 18px;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+  }
+  .lang-toggle button.active {
+    background: var(--ink);
+    color: #fff;
+    border-color: var(--ink);
+  }
+  section.doc-section {
+    margin-bottom: 24px;
+  }
+  section.doc-section h2 {
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    margin: 0 0 8px;
+  }
+  section.doc-section p {
+    font-size: 14px;
+    color: #3A3A3C;
+    margin: 0;
+    white-space: pre-line;
+  }
+  .lang-block[hidden] { display: none; }
+  footer {
+    margin-top: 40px;
+    font-size: 11px;
+    color: var(--ink-muted);
+    letter-spacing: 0.05em;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="lang-toggle">
+      <button id="btn-ja" class="active" onclick="showLang('ja')">日本語</button>
+      <button id="btn-en" onclick="showLang('en')">English</button>
+    </div>
+
+    <div class="lang-block" id="lang-ja">
+      <h1>プライバシーポリシー</h1>
+      <p class="updated">最終更新日：2025年1月</p>
+      <hr>
+
+      <section class="doc-section">
+        <h2>1. 収集する情報</h2>
+        <p>本アプリは、個人を特定できる情報をサーバーに送信・収集しません。
+
+端末内にのみ保存される情報：
+・アプリの設定（背景・言語・ホーム画面レイアウトなど）
+・使用統計（起動回数・累計使用時間）
+・レビュー済みフラグ
+
+これらの情報はお使いの端末内にのみ保存され、外部に送信されることはありません。</p>
+      </section>
+
+      <section class="doc-section">
+        <h2>2. お問い合わせ時の情報</h2>
+        <p>「お問い合わせ」機能をご利用の際、入力された件名・内容がメールアプリを通じて開発者に送信されます。送信された情報は、お問い合わせへの返信・サービス改善のみに使用します。メール送信後の情報の取り扱いは、ご利用のメールサービスのプライバシーポリシーにも従います。</p>
+      </section>
+
+      <section class="doc-section">
+        <h2>3. 第三者への提供</h2>
+        <p>収集した情報を、法令に基づく開示が必要な場合を除き、第三者に販売・提供・共有することはありません。</p>
+      </section>
+
+      <section class="doc-section">
+        <h2>4. お子様のプライバシー</h2>
+        <p>本アプリは13歳未満のお子様を対象としていません。13歳未満のお子様から意図せず情報を取得した場合は、速やかに削除します。</p>
+      </section>
+
+      <section class="doc-section">
+        <h2>5. ポリシーの変更</h2>
+        <p>本ポリシーは予告なく変更される場合があります。変更後の内容は本画面に掲載します。重要な変更がある場合は、アップデートを通じてお知らせします。</p>
+      </section>
+
+      <section class="doc-section">
+        <h2>6. お問い合わせ</h2>
+        <p>プライバシーに関するご質問・ご不明点がございましたら、アプリ内の設定画面の「お問い合わせ・フィードバック」よりご連絡ください。</p>
+      </section>
+
+      <footer>ミニマリストフォン（Minimalist Phone）</footer>
+    </div>
+
+    <div class="lang-block" id="lang-en" hidden>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: January 2025</p>
+      <hr>
+
+      <section class="doc-section">
+        <h2>1. Information We Collect</h2>
+        <p>The App does not transmit or collect personally identifiable information to any server.
+
+Information stored on-device only:
+・App settings (background, language, home screen layout, etc.)
+・Usage statistics (session count, total usage time)
+・Review completion flag
+
+This information stays on your device and is never sent externally.</p>
+      </section>
+
+      <section class="doc-section">
+        <h2>2. Contact Form Information</h2>
+        <p>When you use the Contact feature, the subject and message you enter are sent to the developer via your email app. This information is used solely to respond to your inquiry and improve the service. Handling of the email after sending is also subject to the privacy policy of your email service provider.</p>
+      </section>
+
+      <section class="doc-section">
+        <h2>3. Sharing with Third Parties</h2>
+        <p>We do not sell, share, or disclose collected information to third parties, except when required by applicable law.</p>
+      </section>
+
+      <section class="doc-section">
+        <h2>4. Children's Privacy</h2>
+        <p>The App is not intended for children under the age of 13. If we inadvertently collect information from a child under 13, we will promptly delete it.</p>
+      </section>
+
+      <section class="doc-section">
+        <h2>5. Changes to This Policy</h2>
+        <p>This policy may be updated without prior notice. Changes will be reflected on this page. For significant changes, we will notify you via an app update.</p>
+      </section>
+
+      <section class="doc-section">
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions about this privacy policy, please reach out via the "Contact & Feedback" option in the app's settings screen.</p>
+      </section>
+
+      <footer>Minimalist Phone</footer>
+    </div>
+  </div>
+
+  <script>
+    function showLang(lang) {
+      document.getElementById('lang-ja').hidden = lang !== 'ja';
+      document.getElementById('lang-en').hidden = lang !== 'en';
+      document.getElementById('btn-ja').classList.toggle('active', lang === 'ja');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    }
+  </script>
+</body>
+</html>
